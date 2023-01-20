@@ -1,3 +1,6 @@
 #!/bin/bash -x
 
-echo "WELCOME TO THE WAGE COMPUTATION PROGRAM "
+wageperhour=20
+hourper=8
+dailywage=$(( $wageperhour * $hourper ))
+echo $dailywage
