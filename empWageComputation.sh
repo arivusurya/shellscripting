@@ -2,5 +2,5 @@
 
 wageperhour=20
 parttime=8
-dailywage=$(( $wageperhour * $hourper ))
-echo $dailywage
+dailywage=$(( $wageperhour * $parttime ))
+
